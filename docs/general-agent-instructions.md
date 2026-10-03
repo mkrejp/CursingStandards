@@ -1,1 +1,1 @@
-PLACEHOLDER_LOAD_FROM_DISK
+$file:/cursor/stores/self/docs/general-agent-instructions.md
