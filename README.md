@@ -15,5 +15,6 @@ Public, **redacted** restore guide for a clean Cursor desktop install:
 
 - [docs/agent-context-budget.md](docs/agent-context-budget.md) — keep agent context as small as reasonably possible
 - [docs/agent-structured-docs.md](docs/agent-structured-docs.md) — structured docs and handoff blocks for AI hierarchical parsing
+- [docs/postgresql.md](docs/postgresql.md) — PostgreSQL schema, query, index, and migration rules
 
 Do not store secrets, PATs, live project refs, or private repo lists in this repository. Re-authenticate each MCP on a new machine.
