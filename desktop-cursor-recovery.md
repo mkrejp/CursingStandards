@@ -8,7 +8,7 @@ Do **not** paste OAuth tokens, API keys, GitHub PATs, or live MCP URLs with secr
 
 Companion inventory: [desktop-cursor-recovery.reference.md](desktop-cursor-recovery.reference.md).
 
-Agent docs index: [docs/INDEX.md](docs/INDEX.md). Keep session context small ([docs/agent-context-budget.md](docs/agent-context-budget.md)); write hierarchical handoffs ([docs/agent-structured-docs.md](docs/agent-structured-docs.md)).
+Agent docs index: [docs/INDEX.md](docs/INDEX.md). Keep session context small ([docs/agent-context-budget.md](docs/agent-context-budget.md)); write hierarchical handoffs ([docs/agent-structured-docs.md](docs/agent-structured-docs.md)). PostgreSQL: [docs/postgresql.md](docs/postgresql.md).
 
 ---
 
@@ -148,7 +148,7 @@ Recreate these as Cursor user rules (Settings → Rules, and/or `%USERPROFILE%\\
 2. **Affirmative wording** — prefer saying what is true; avoid contrastive “not X, but Y” phrasing.
 3. **Environment restore pointer** — for clean installs / reconnecting plugins, follow this repo’s `desktop-cursor-recovery.md` (and optionally a local copy under `%USERPROFILE%\\.cursor\\skills\\cursor-environment-setup\\`).
 4. **Python** — typing, pytest, uv, Ruff, PEP 257.
-5. **PostgreSQL** — TIMESTAMPTZ, parameterized SQL, migrations, indexing.
+5. **PostgreSQL** — restore from [docs/postgresql.md](docs/postgresql.md) (TIMESTAMPTZ, parameterized SQL, migrations, indexing).
 
 Do not store secrets in rule bodies.
 
