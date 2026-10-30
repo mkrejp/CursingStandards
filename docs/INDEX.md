@@ -9,6 +9,7 @@ Entry point for agents. Load **this file first**, then only the linked leaf for 
 | agent_context_budget | Keep agent context small; retrieve on demand | [agent-context-budget.md](agent-context-budget.md) |
 | agent_structured_docs | Hierarchical docs + handoff format for AI parsing | [agent-structured-docs.md](agent-structured-docs.md) |
 | postgresql | PostgreSQL schema, query, index, migration rules | [postgresql.md](postgresql.md) |
+| python | Python structure, typing, pytest, uv, Ruff rules | [python.md](python.md) |
 
 ## task_routing
 
@@ -19,6 +20,7 @@ Entry point for agents. Load **this file first**, then only the linked leaf for 
 | `shrink-context` / `handoff` | `agent_context_budget` then `agent_structured_docs` |
 | `write-docs` | `agent_structured_docs` |
 | `postgres` / `sql` / `migrations` | `postgresql` |
+| `python` / `pytest` / `ruff` | `python` |
 
 ## redaction
 
